@@ -1,11 +1,6 @@
 # Kohya's GUI Revamped
 
-[![GitHub stars](https://img.shields.io/github/stars/bmaltais/kohya_ss?style=social)](https://github.com/bmaltais/kohya_ss/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/bmaltais/kohya_ss?style=social)](https://github.com/bmaltais/kohya_ss/network/members)
-[![License](https://img.shields.io/github/license/bmaltais/kohya_ss)](LICENSE.md)
-[![GitHub issues](https://img.shields.io/github/issues/bmaltais/kohya_ss)](https://github.com/bmaltais/kohya_ss/issues)
-
-This project provides a user-friendly Gradio-based Graphical User Interface (GUI) for [Kohya's Stable Diffusion training scripts](https://github.com/kohya-ss/sd-scripts). Stable Diffusion training empowers users to customize image generation models by fine-tuning existing models, creating unique artistic styles, and training specialized models like LoRA (Low-Rank Adaptation).
+This project provides a user-friendly Gradio-based Graphical User Interface (GUI) for [Kohya's Stable Diffusion training scripts](https://github.com/AsaTyr2018/sd-scripts). Stable Diffusion training empowers users to customize image generation models by fine-tuning existing models, creating unique artistic styles, and training specialized models like LoRA (Low-Rank Adaptation).
 
 Key features of this GUI include:
 *   Easy-to-use interface for setting a wide range of training parameters.
@@ -66,16 +61,6 @@ Support for Linux and macOS is also available. While Linux support is actively m
     - [v25.0.1](#v2501)
     - [v25.0.0](#v2500)
   
-## 🦒 Colab
-
-This Colab notebook was not created or maintained by me; however, it appears to function effectively. The source can be found at: <https://github.com/camenduru/kohya_ss-colab>.
-
-I would like to express my gratitude to camenduru for their valuable contribution. If you encounter any issues with the Colab notebook, please report them on their repository.
-
-| Colab                                                                                                                                                                          | Info               |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/kohya_ss-colab/blob/main/kohya_ss_colab.ipynb) | kohya_ss_gui_colab |
-
 ## Installation Methods
 
 This project offers two primary methods for installing and running the GUI: using the `uv` package manager (recommended for ease of use and automatic updates) or using the traditional `pip` package manager. Below, you'll find details on both approaches. Please read this section to decide which method best suits your needs before proceeding to the OS-specific installation prerequisites.
@@ -107,7 +92,7 @@ To set up the project, follow these steps:
 2. Clone the repository by running the following command:
 
    ```shell
-   git clone --recursive https://github.com/bmaltais/kohya_ss.git
+   git clone --recursive https://github.com/AsaTyr2018/kohya_ss.git
    ```
 
 3. Change into the `kohya_ss` directory:
@@ -128,7 +113,7 @@ Regardless of your OS, start with these steps:
 2. Clone the repository by running the following command:
 
    ```shell
-   git clone --recursive https://github.com/bmaltais/kohya_ss.git
+   git clone --recursive https://github.com/AsaTyr2018/kohya_ss.git
    ```
 
 3. Change into the `kohya_ss` directory:
@@ -461,7 +446,7 @@ See [Troubleshooting LORA Training on TESLA V100](docs/troubleshooting_tesla_v10
 
 ## SDXL training
 
-For detailed guidance on SDXL training, please refer to the [official sd-scripts documentation](https://github.com/kohya-ss/sd-scripts/blob/main/README.md#sdxl-training) and relevant sections in our [LoRA Training Guide](docs/LoRA/top_level.md).
+For detailed guidance on SDXL training, please refer to the [official sd-scripts documentation](https://github.com/AsaTyr2018/sd-scripts/blob/main/README.md#sdxl-training) and relevant sections in our [LoRA Training Guide](docs/LoRA/top_level.md).
 
 ## Masked loss
 
@@ -504,7 +489,7 @@ To finetune HunyuanDiT models or create LoRAs, visit this [fork](https://github.
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please consider the following:
-- For bug reports or feature requests, please open an issue on the [GitHub Issues page](https://github.com/bmaltais/kohya_ss/issues).
+- For bug reports or feature requests, please open an issue on the [GitHub Issues page](https://github.com/AsaTyr2018/kohya_ss/issues).
 - If you'd like to submit code changes, please open a pull request. Ensure your changes are well-tested and follow the existing code style.
 - For security-related concerns, please refer to our `SECURITY.md` file.
 
@@ -540,4 +525,4 @@ This project is licensed under the Apache License 2.0. See the [LICENSE.md](LICE
   ```shell
   git checkout v24.1.7
   ```
-- For details on new flux.1 and sd3 parameters, refer to the [sd-scripts README](https://github.com/kohya-ss/sd-scripts/blob/sd3/README.md).
+- For details on new flux.1 and sd3 parameters, refer to the [sd-scripts README](https://github.com/AsaTyr2018/sd-scripts/blob/sd3/README.md).
