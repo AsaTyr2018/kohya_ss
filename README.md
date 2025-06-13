@@ -44,6 +44,7 @@ Support for Linux and macOS is also available. While Linux support is actively m
     - [Launching the GUI on Linux (uv method)](#launching-the-gui-on-linux-uv-method)
   - [Custom Path Defaults](#custom-path-defaults)
   - [LoRA](#lora)
+  - [Batch Training Queue](#batch-training-queue)
   - [Sample image generation during training](#sample-image-generation-during-training)
   - [Troubleshooting](#troubleshooting)
     - [Page File Limit](#page-file-limit)
@@ -414,6 +415,10 @@ Once you have created the LoRA network, you can generate images using auto1111 b
 For more detailed information on LoRA training options and advanced configurations, please refer to our LoRA documentation:
 - [LoRA Training Guide](docs/LoRA/top_level.md)
 - [LoRA Training Options](docs/LoRA/options.md)
+
+## Batch Training Queue
+
+Use `batch_queue_gui.py` to queue multiple training configuration files. Each file is processed sequentially, making it easy to run several trainings in a row.
 
 ## Sample image generation during training
 

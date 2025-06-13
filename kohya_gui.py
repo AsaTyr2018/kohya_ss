@@ -6,6 +6,7 @@ import contextlib
 import gradio as gr
 
 from kohya_gui.class_gui_config import KohyaSSGUIConfig
+from kohya_gui.batch_queue_gui import gradio_batch_queue_tab
 from kohya_gui.dreambooth_gui import dreambooth_tab
 from kohya_gui.finetune_gui import finetune_tab
 from kohya_gui.textual_inversion_gui import ti_tab
@@ -47,6 +48,8 @@ def initialize_ui_interface(config, headless, use_shell, release_info, readme_co
             ti_tab(headless=headless, config=config, use_shell_flag=use_shell)
         with gr.Tab("Finetuning"):
             finetune_tab(headless=headless, config=config, use_shell_flag=use_shell)
+        with gr.Tab("Batch Queue"):
+            gradio_batch_queue_tab(headless=headless)
         with gr.Tab("Utilities"):
             # Utilities tab requires inputs from the Dreambooth tab
             utilities_tab(
