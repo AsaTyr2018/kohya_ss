@@ -1209,7 +1209,7 @@ def verify_image_folder_pattern(folder_path: str) -> bool:
         # Log an error message if the folder does not exist
         log.error(
             f"...the provided path '{folder_path}' is not a valid folder. "
-            "Please follow the folder structure documentation found at docs\image_folder_structure.md ..."
+            "Please follow the folder structure documentation found at docs/image_folder_structure.md ..."
         )
         # Return False to indicate that the folder pattern is not valid
         return False
@@ -1243,7 +1243,7 @@ def verify_image_folder_pattern(folder_path: str) -> bool:
         )
         # Log an error message suggesting to follow the folder structure documentation
         log.error(
-            f"...please follow the folder structure documentation found at docs\image_folder_structure.md ..."
+            f"...please follow the folder structure documentation found at docs/image_folder_structure.md ..."
         )
         # Return False to indicate that the folder pattern is not valid
         return False
@@ -1253,7 +1253,7 @@ def verify_image_folder_pattern(folder_path: str) -> bool:
         # Log an error message if no image folders are found
         log.error(
             f"...no image folders found in {folder_path}. "
-            "Please follow the folder structure documentation found at docs\image_folder_structure.md ..."
+            "Please follow the folder structure documentation found at docs/image_folder_structure.md ..."
         )
         # Return False to indicate that the folder pattern is not valid
         return False

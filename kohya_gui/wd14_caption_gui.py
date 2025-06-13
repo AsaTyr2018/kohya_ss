@@ -239,7 +239,7 @@ def gradio_wd14_caption_gui_tab(
 
             tag_replacement = gr.Textbox(
                 label="Tag replacement",
-                info="tag replacement in the format of `source1,target1;source2,target2; ...`. Escape `,` and `;` with `\`. e.g. `tag1,tag2;tag3,tag4`",
+                info=r"tag replacement in the format of `source1,target1;source2,target2; ...`. Escape `,` and `;` with `\\`. e.g. `tag1,tag2;tag3,tag4`",
                 value=config.get("wd14_caption.tag_replacement", ""),
                 interactive=True,
             )
