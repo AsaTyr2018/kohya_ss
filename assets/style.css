@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(180deg, #fafbff 0%, #f0f2f5 100%);
+}
+
+body.dark {
+    background: #1b1e22;
+}
+
+.gradio-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
 .dark #open_folder_small {
     min-width: auto;
     flex-grow: 0;
