@@ -514,6 +514,12 @@ This project is licensed under the Apache License 2.0. See the [LICENSE.md](LICE
 
 ## Change History
 
+### v25.0.3-1
+
+- Introduced a **Batch Queue** tab with a GUI to queue and run multiple training
+  configuration files sequentially.
+- Updated the interface with a modern Gradio theme and refreshed CSS styling.
+
 ### v25.0.3
 
 - Upgrade Gradio, diffusers and huggingface-hub to latest release to fix issue with ASGI.
